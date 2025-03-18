@@ -1,0 +1,72 @@
+/* General settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center and style the form container */
+.login {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Form header */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form labels */
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Form fields */
+input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #007BFF;
+}
+
+/* Submit button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Form field groups */
+.mb-3 {
+    margin-bottom: 15px;
+}
+
+/* Result section */
+h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-top: 20px;
+}
